@@ -29,12 +29,13 @@ public class Main {
         } else if (bmi <= 24.9){
             System.out.println("Normal or healthy weight");
         } else if (bmi <= 29.9){
-            System.out.println("Overwieght");
+            System.out.println("Overweight");
         } else if (bmi <= 39.9){
             System.out.println("Obese");
         } else {
             System.out.println(" Morbidly Obese");
         }
+
 
     }
 }
